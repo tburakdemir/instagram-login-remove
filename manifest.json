@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Instagram Show Images Unlimited",
+  "description": "This is a chrome extension that removes login popup which is opened when a person not logged scrolls the page a bit.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://www.instagram.com/*"]
+    }
+  ]
+}
